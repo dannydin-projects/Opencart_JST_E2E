@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/Users/Danns/IdeaProjects/JS_HybridFramework/src/test/java/testCases/TC01_Registration.java">
+        <parameter name="os" value="Windows" />
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="testCases.TC01_Registration"/>
+            <class name="testCases.TC02_Login"/>
+<!--            <class name="testCases.TC03_LoginDDP"/>-->
+        </classes>
+    </test>
+</suite>

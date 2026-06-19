@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CrossBrowser Suite" thread-count="4" parallel="tests">
+    <test verbose="2" preserve-order="true" name="chrometest">
+        <parameter name="os" value="Windows" />
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="testCases.TC01_Registration"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="edgetest">
+        <parameter name="os" value="Windows" />
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="testCases.TC01_Registration"/>
+        </classes>
+    </test>
+</suite>
