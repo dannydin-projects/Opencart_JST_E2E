@@ -40,6 +40,7 @@ public class BaseClass {
             case "edge": driver = new EdgeDriver();break;
             default: logger.error("Wrong Browser Parameter..."); return;
         }
+
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(p.getProperty("appurl"));
