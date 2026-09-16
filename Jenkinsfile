@@ -27,21 +27,21 @@ pipeline {
             steps {
                 echo '========== Checking out code =========='
                 checkout scm
-                sh 'git log --oneline -5'
+                bat 'git log --oneline -5'
             }
         }
 
         stage('Build') {
             steps {
                 echo '========== Compiling Project =========='
-                sh 'mvn clean compile'
+                bat 'mvn clean compile'
             }
         }
 
         stage('Run Tests') {
             steps {
                 echo '========== Executing TestNG Tests =========='
-                sh 'mvn test -Dmaven.test.failure.ignore=true'
+                bat 'mvn test -Dmaven.test.failure.ignore=true'
             }
         }
 
