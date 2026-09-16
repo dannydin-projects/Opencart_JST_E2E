@@ -15,7 +15,7 @@ public class homePage extends basePage{
         super(driver);
     }
 
-    @FindBy(xpath="//div[contains(@class, 'dropdown')]//a[contains(text(), 'My Account')]")
+    @FindBy(xpath="//li//a[contains(text(), 'My Account')]")
     WebElement lnkMyAccount;
 
     @FindBy(xpath="//a[normalize-space()='Register']")
