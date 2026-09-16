@@ -34,14 +34,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo '========== Compiling Project =========='
-                bat 'mvn clean compile'
+                //bat 'mvn clean compile'
             }
         }
 
         stage('Run Tests') {
             steps {
                 echo '========== Executing TestNG Tests =========='
-                bat 'mvn test -Dmaven.test.failure.ignore=true'
+                bat 'mvn clean test'
             }
         }
 
