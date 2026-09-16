@@ -1,8 +1,10 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import utilities.WebDriverActions;
 
 public class homePage extends basePage{
     public homePage(WebDriver driver){
@@ -20,7 +22,9 @@ public class homePage extends basePage{
 
     public void clickMyAccount()
     {
-        lnkMyAccount.click();
+        WebDriverActions wa = new WebDriverActions(driver);
+        By locator = By.xpath("//span[normalize-space()='My Account']");
+        wa.click(locator);
     }
 
     public void clickRegister()

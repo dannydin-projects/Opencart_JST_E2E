@@ -4,9 +4,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.*;
 import testBases.BaseClass;
+import utilities.RetryAnalyzer;
 
 public class TC02_Login extends BaseClass {
-    @Test(groups = {"Master","Sanity","Regression"})
+    @Test(groups = {"Master","Sanity","Regression"}, retryAnalyzer = RetryAnalyzer.class)
     public void verifyAccountLogin(){
         logger.info("***** Starting TC02 *****");
         try {

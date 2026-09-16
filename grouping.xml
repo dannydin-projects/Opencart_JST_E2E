@@ -3,7 +3,8 @@
 <suite name="Master Suite">
     <groups>
         <run>
-            <include name="Master"/>
+            <include name="Sanity"/>
+            <exclude name="Regression"/>
         </run>
     </groups>
     <listeners>

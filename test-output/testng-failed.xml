@@ -7,14 +7,19 @@
   <test thread-count="5" name="C:/Users/Danns/IdeaProjects/JS_HybridFramework/src/test/java/testCases/TC01_Registration.java(failed)">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Master"/>
+      </run>
+    </groups>
     <classes>
-      <class name="testCases.TC02_Login">
+      <class name="testCases.TC03_LoginDDP">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="verifyAccountLogin"/>
+          <include name="verifyLoginDDP" invocation-numbers="2 3"/>
         </methods>
-      </class> <!-- testCases.TC02_Login -->
+      </class> <!-- testCases.TC03_LoginDDP -->
     </classes>
   </test> <!-- C:/Users/Danns/IdeaProjects/JS_HybridFramework/src/test/java/testCases/TC01_Registration.java(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->
