@@ -11,7 +11,7 @@ public class homePage extends basePage{
         super(driver);
     }
 
-    @FindBy(xpath="//span[normalize-space()='My Account']")
+    @FindBy(xpath="//a[contains(@class, 'dropdown-toggle')]//span[contains(text(), 'My Account')] | //div[contains(@class, 'dropdown')]//a[contains(text(), 'My Account')]")
     WebElement lnkMyAccount;
 
     @FindBy(xpath="//a[normalize-space()='Register']")
@@ -23,8 +23,8 @@ public class homePage extends basePage{
     public void clickMyAccount()
     {
         WebDriverActions wa = new WebDriverActions(driver);
-        By locator = By.xpath("//span[normalize-space()='My Account']");
-        wa.click(locator);
+        By locator = By.xpath("//a[contains(@class, 'dropdown-toggle')]//span[contains(text(), 'My Account')] | //div[contains(@class, 'dropdown')]//a[contains(text(), 'My Account')]");
+        wa.click(lnkMyAccount);
     }
 
     public void clickRegister()

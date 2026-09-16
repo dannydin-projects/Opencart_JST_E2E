@@ -167,3 +167,7 @@
 16:49:08.026 [main] INFO  testCases.TC02_Login - At Home Page...
 16:49:08.209 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
 16:49:10.372 [main] INFO  testCases.TC02_Login - ***** Finished TC02 *****
+16:56:29.023 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+16:56:29.028 [main] INFO  testCases.TC02_Login - At Home Page...
+16:56:29.213 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+16:56:31.476 [main] INFO  testCases.TC02_Login - ***** Finished TC02 *****
