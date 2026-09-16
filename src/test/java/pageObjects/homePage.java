@@ -4,7 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.WebDriverActions;
+
+import java.time.Duration;
 
 public class homePage extends basePage{
     public homePage(WebDriver driver){
@@ -24,6 +28,8 @@ public class homePage extends basePage{
     {
         WebDriverActions wa = new WebDriverActions(driver);
         By locator = By.xpath("//a[contains(@class, 'dropdown-toggle')]//span[contains(text(), 'My Account')] | //div[contains(@class, 'dropdown')]//a[contains(text(), 'My Account')]");
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(12));
+        wait.until(ExpectedConditions.elementToBeClickable(lnkMyAccount));
         wa.click(lnkMyAccount);
     }
 
