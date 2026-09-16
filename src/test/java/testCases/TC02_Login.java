@@ -24,9 +24,9 @@ public class TC02_Login extends BaseClass {
             ma.clickLogout();
 
         }catch (Exception e){
-            logger.error("Test Failed...");
+            logger.error("Test Failed: " + e.getMessage());
             logger.debug(e);
-            Assert.fail();
+            Assert.fail("Login test failed: " + e.getMessage());
         }
         logger.info("***** Finished TC02 *****");
     }
