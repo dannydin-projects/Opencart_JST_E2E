@@ -122,10 +122,17 @@ public class ExtentReportManager implements ITestListener {
         String pathOfExtentReport =
                 System.getProperty("user.dir") + "\\reports\\" + repName;
 
-        System.out.println("===============================================");
-        System.out.println("✓ Test Report Generated: " + repName);
-        System.out.println("✓ Location: " + pathOfExtentReport);
-        System.out.println("✓ Download from Jenkins: Build Artifacts → reports/");
-        System.out.println("===============================================");
+        File extentReport = new File(pathOfExtentReport);
+
+        try {
+            if (Desktop.isDesktopSupported()) {
+                Desktop.getDesktop().browse(extentReport.toURI());
+            } else {
+                System.out.println("Desktop not supported. Report generated at: " + pathOfExtentReport);
+            }
+        } catch (IOException e) {
+            System.out.println("Could not open report in browser. Report generated at: " + pathOfExtentReport);
+            e.printStackTrace();
+        }
     }
 }
