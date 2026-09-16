@@ -2,13 +2,12 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven_Latest'
-        jdk   'JDK_21'
+        maven 'Maven 3.9'
+        jdk   'jdk22'
     }
 
     options {
         timeout(time: 2, unit: 'HOURS')
-        ansiColor('xterm')
         buildDiscarder(logRotator(numToKeepStr: '10', artifactNumToKeepStr: '5'))
     }
 
@@ -17,7 +16,7 @@ pipeline {
     }
 
     environment {
-        MAVEN_HOME = tool 'Maven_Latest'
+        MAVEN_HOME = tool 'Maven 3.9'
         PATH = "${MAVEN_HOME}/bin:${PATH}"
         TEST_REPORT_DIR = "${WORKSPACE}/test-output"
         EXTENT_REPORT_DIR = "${WORKSPACE}/reports"
