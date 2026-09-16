@@ -125,8 +125,13 @@ public class ExtentReportManager implements ITestListener {
         File extentReport = new File(pathOfExtentReport);
 
         try {
-            Desktop.getDesktop().browse(extentReport.toURI());
+            if (Desktop.isDesktopSupported()) {
+                Desktop.getDesktop().browse(extentReport.toURI());
+            } else {
+                System.out.println("Desktop not supported. Report generated at: " + pathOfExtentReport);
+            }
         } catch (IOException e) {
+            System.out.println("Could not open report in browser. Report generated at: " + pathOfExtentReport);
             e.printStackTrace();
         }
     }
