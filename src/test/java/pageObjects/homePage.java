@@ -40,5 +40,8 @@ public class homePage extends basePage{
 
     public void clickLogin()
     {
-        lnkLogin.click();
+        WebDriverActions wa = new WebDriverActions(driver);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.elementToBeClickable(lnkLogin));
+        wa.click(lnkLogin);
     }}
