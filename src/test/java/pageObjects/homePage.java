@@ -18,10 +18,10 @@ public class homePage extends basePage{
     @FindBy(xpath="//li//a[contains(text(), 'My Account')]")
     WebElement lnkMyAccount;
 
-    @FindBy(xpath="//a[normalize-space()='Register']")
+    @FindBy(xpath="//li//a[normalize-space()='Register']")
     WebElement lnkRegister;
 
-    @FindBy(xpath="//a[normalize-space()='Login']")
+    @FindBy(xpath="//li//a[normalize-space()='Login']")
     WebElement lnkLogin;
 
     public void clickMyAccount()
