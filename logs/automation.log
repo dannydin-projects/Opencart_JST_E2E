@@ -171,3 +171,119 @@
 16:56:29.028 [main] INFO  testCases.TC02_Login - At Home Page...
 16:56:29.213 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
 16:56:31.476 [main] INFO  testCases.TC02_Login - ***** Finished TC02 *****
+17:47:27.046 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:47:27.049 [main] INFO  testCases.TC02_Login - At Home Page...
+17:47:27.498 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:47:32.788 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (19850191296f0cf8a6024c30f2e5a96e)] -> xpath: //li//a[normalize-space()='Login']]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52159}, goog:processID: 1764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52159/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19850191296f0cf8a6024c30f2e5a96e
+17:47:32.794 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #1 of 3: verifyAccountLogin
+17:47:32.804 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:47:32.804 [main] INFO  testCases.TC02_Login - At Home Page...
+17:47:33.300 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:47:38.569 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (19850191296f0cf8a6024c30f2e5a96e)] -> xpath: //li//a[normalize-space()='Login']]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52159}, goog:processID: 1764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52159/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19850191296f0cf8a6024c30f2e5a96e
+17:47:38.569 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #2 of 3: verifyAccountLogin
+17:47:38.572 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:47:38.572 [main] INFO  testCases.TC02_Login - At Home Page...
+17:47:38.965 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:47:44.206 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (19850191296f0cf8a6024c30f2e5a96e)] -> xpath: //li//a[normalize-space()='Login']]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52159}, goog:processID: 1764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52159/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19850191296f0cf8a6024c30f2e5a96e
+17:47:44.206 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #3 of 3: verifyAccountLogin
+17:47:44.207 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:47:44.207 [main] INFO  testCases.TC02_Login - At Home Page...
+17:47:44.691 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:47:49.962 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (19850191296f0cf8a6024c30f2e5a96e)] -> xpath: //li//a[normalize-space()='Login']]
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52159}, goog:processID: 1764, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52159/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19850191296f0cf8a6024c30f2e5a96e
+17:50:36.134 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:50:36.137 [main] INFO  testCases.TC02_Login - At Home Page...
+17:50:36.616 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:50:41.900 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for element to be clickable, but the element was not visible.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55208}, goog:processID: 21304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55208/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4ff79a85a53f040d19b44632f34886
+17:50:41.906 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #1 of 3: verifyAccountLogin
+17:50:41.917 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:50:41.917 [main] INFO  testCases.TC02_Login - At Home Page...
+17:50:42.334 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:50:45.501 [main] ERROR testCases.TC02_Login - Test Failed: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=152.0.7977.84)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a4ff79a85a53f040d19b44632f34886, findElement {using=xpath, value=//li//a[normalize-space()='Login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55208}, goog:processID: 21304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55208/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4ff79a85a53f040d19b44632f34886
+17:50:45.501 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #2 of 3: verifyAccountLogin
+17:50:45.504 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:50:45.504 [main] INFO  testCases.TC02_Login - At Home Page...
+17:50:45.570 [main] ERROR testCases.TC02_Login - Test Failed: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a4ff79a85a53f040d19b44632f34886, findElement {using=xpath, value=//li//a[contains(text(), 'My Account')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55208}, goog:processID: 21304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55208/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4ff79a85a53f040d19b44632f34886
+17:50:45.570 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #3 of 3: verifyAccountLogin
+17:50:45.572 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:50:45.572 [main] INFO  testCases.TC02_Login - At Home Page...
+17:50:45.576 [main] ERROR testCases.TC02_Login - Test Failed: invalid session id
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a4ff79a85a53f040d19b44632f34886, findElement {using=xpath, value=//li//a[contains(text(), 'My Account')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55208}, goog:processID: 21304, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55208/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4ff79a85a53f040d19b44632f34886
+17:51:52.345 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:51:52.347 [main] INFO  testCases.TC02_Login - At Home Page...
+17:51:53.060 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+17:51:58.398 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for element to be clickable, but the element was not visible.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.84, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: C:\Users\Danns\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50251}, goog:processID: 11632, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50251/devtoo..., se:cdpVersion: 152.0.7977.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af0e8bbede62371baed570c7e1f0e276
+17:51:58.403 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #1 of 3: verifyAccountLogin
+17:51:58.421 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:51:58.421 [main] INFO  testCases.TC02_Login - At Home Page...
+17:52:03.552 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for element to be clickable, but the element null.
+(tried for 5 seconds with 500 milliseconds interval)
+17:52:03.552 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #2 of 3: verifyAccountLogin
+17:52:03.554 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:52:03.554 [main] INFO  testCases.TC02_Login - At Home Page...
+17:52:08.654 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for element to be clickable, but the element null.
+(tried for 5 seconds with 500 milliseconds interval)
+17:52:08.654 [main] WARN  utilities.RetryAnalyzer - 🔄 RETRY ATTEMPT #3 of 3: verifyAccountLogin
+17:52:08.655 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+17:52:08.655 [main] INFO  testCases.TC02_Login - At Home Page...
+17:52:13.753 [main] ERROR testCases.TC02_Login - Test Failed: Expected condition failed: waiting for element to be clickable, but the element null.
+(tried for 5 seconds with 500 milliseconds interval)
+18:00:50.831 [main] INFO  testCases.TC02_Login - ***** Starting TC02 *****
+18:00:50.834 [main] INFO  testCases.TC02_Login - At Home Page...
+18:00:51.004 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: My Account
+18:00:51.321 [main] INFO  utilities.WebDriverActions - ✓ Clicked on WebElement: 
+18:00:53.702 [main] INFO  testCases.TC02_Login - ***** Finished TC02 *****

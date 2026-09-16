@@ -10,38 +10,38 @@ import utilities.WebDriverActions;
 
 import java.time.Duration;
 
-public class homePage extends basePage{
-    public homePage(WebDriver driver){
+public class homePage extends basePage {
+    public homePage(WebDriver driver) {
         super(driver);
     }
 
-    @FindBy(xpath="//li//a[contains(text(), 'My Account')]")
+    @FindBy(xpath = "//a[contains(@class, 'dropdown-toggle')]//span[contains(text(), 'My Account')]/..")
     WebElement lnkMyAccount;
 
-    @FindBy(xpath="//li//a[normalize-space()='Register']")
+    @FindBy(xpath = "//li//a[normalize-space()='Register']")
     WebElement lnkRegister;
 
-    @FindBy(xpath="//li//a[normalize-space()='Login']")
+    @FindBy(xpath = "//li//a[text()='Login']")
     WebElement lnkLogin;
 
-    public void clickMyAccount()
-    {
+    public void clickMyAccount() {
         WebDriverActions wa = new WebDriverActions(driver);
-        By locator = By.xpath("//a[contains(@class, 'dropdown-toggle')]//span[contains(text(), 'My Account')] | //div[contains(@class, 'dropdown')]//a[contains(text(), 'My Account')]");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(lnkMyAccount));
         wa.click(lnkMyAccount);
     }
 
-    public void clickRegister()
-    {
-        lnkRegister.click();
-    }
-
-    public void clickLogin()
-    {
+    public void clickRegister() {
         WebDriverActions wa = new WebDriverActions(driver);
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.visibilityOf(lnkLogin));
+        wait.until(ExpectedConditions.elementToBeClickable(lnkRegister));
+        wa.click(lnkRegister);
+    }
+
+    public void clickLogin() {
+        WebDriverActions wa = new WebDriverActions(driver);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait.until(ExpectedConditions.elementToBeClickable(lnkLogin));
         wa.click(lnkLogin);
-    }}
+    }
+}
