@@ -28,7 +28,7 @@ public class homePage extends basePage{
     {
         WebDriverActions wa = new WebDriverActions(driver);
         By locator = By.xpath("//a[contains(@class, 'dropdown-toggle')]//span[contains(text(), 'My Account')] | //div[contains(@class, 'dropdown')]//a[contains(text(), 'My Account')]");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(12));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.elementToBeClickable(lnkMyAccount));
         wa.click(lnkMyAccount);
     }
